@@ -1,0 +1,14 @@
+{
+  "name": "briteside",
+  "version": "0.1.0",
+  "description": "An eventbrite creation tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "eventbrite"
+  ],
+  "author": "Ben Junya <ben.junya@js.la>",
+  "license": "MIT"
+}
