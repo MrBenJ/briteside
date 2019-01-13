@@ -4,11 +4,32 @@
   "description": "An eventbrite creation tool",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "tsc": "tsc",
+    "build": "NODE_ENV=production webpack",
+    "dev": "webpack --watch"
   },
   "keywords": [
-    "eventbrite"
+    "eventbrite",
+    "markdown"
   ],
   "author": "Ben Junya <ben.junya@js.la>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/markdown-it": "0.0.7",
+    "@types/node": "^10.12.18",
+    "babel-loader": "^8.0.5",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "markdown-it": "^8.4.2"
+  }
 }
