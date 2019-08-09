@@ -62,6 +62,7 @@ kind: Deployment
 metadata:
   labels:
     app: kibana
+    extra: data
     release: kibana
   name: kibana
 spec:
